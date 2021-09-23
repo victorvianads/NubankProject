@@ -1,0 +1,162 @@
+body{
+    background-color: #820AD1;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.main-holder{
+    text-align: center;
+    background-color: #ffff;
+    margin: 1.5rem auto 0 auto;
+    padding: 15px;
+    width: 448px;
+    height: 50%;
+    border-radius: 1.6%;
+    
+   
+}
+.main-holder h1 {
+    text-align: center;
+    
+}
+
+.login-form{
+    display: grid;
+    justify-items: center;
+    align-items: center;  
+    position: relative;
+    width: 320px;
+    margin: 1px auto 0 auto;
+
+}
+#btn{
+
+    height: 70px;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    background-color: transparent;
+    width: 315px;
+    margin: 40px 0 0 0;
+    color: #808080;
+    cursor: pointer;
+    
+}
+#btn:hover{
+    background-color: #841aca;
+    color: white;
+    transition: 0.9s;
+
+}
+
+.div_senha{
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+}
+
+#password{
+    background-color: transparent;   
+    margin: 200px 0 0 0;
+    border: none;
+    border-bottom: 1.5px dotted #000000;
+    padding: 0 0 0 0;
+    outline: none;
+    width: 100%;
+    margin: 0;
+    height: 30px;
+
+}
+
+#password:valid + label{
+    color:gray;
+    transform: translateY(-60%);
+    transition: 0.15s;
+    font-size: 12px;
+}
+
+#password:focus + label{
+    color:red;
+    transform: translateY(-60%);
+    transition: 0.15s;
+    font-size: 12px;
+}
+
+
+.div_cpf{
+    display: flex;
+    width: 100%;
+}
+
+.class_label{
+    position: absolute;
+    font-weight: 500;   
+}
+
+#cpf-field{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1.5px dotted #000000;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    width: 100%;
+    height: 30px;
+}
+
+#cpf-field:valid + label{
+    color:gray;
+    transform: translateY(-60%);
+    transition: 0.15s;
+    font-size: 12px;
+}
+
+#cpf-field:focus + label{
+    color:red;
+    transform: translateY(-60%);
+    transition: 0.15s;
+    font-size: 12px;
+}
+
+#logo1{
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+    transition-duration: 3.5s;
+    transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+#logo1:hover{
+    background: transparent;
+    transform: rotate(180deg);
+}
+
+#link{
+    color: #820AD1;
+    display: block;
+    margin-top: 1rem;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+}
+#link1{
+    color: #820AD1;
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+}
+h1{
+    margin: 75px;
+    color: #000000;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.5;
+    font-size: 20px;
+    margin-top: 50px;
+}
+input{
+    color: #070606;
+}
